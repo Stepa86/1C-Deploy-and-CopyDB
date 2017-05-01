@@ -3,6 +3,8 @@
 
 # Что это?
 
+Подробнее в статье http://infostart.ru/public/617478/
+
 Есть 2 основных оскрипта [deploy.os](/src/deploy.os) и [CopyBase.os](/src/CopyBase.os)  
 
 1. Оба читают параметры из json файлов
