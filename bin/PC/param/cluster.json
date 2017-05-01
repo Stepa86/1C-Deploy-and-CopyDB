@@ -1,0 +1,10 @@
+ {
+    "Cluster.ras": "localhost",
+    "Cluster.UseLock": true,
+    "Cluster.Admin": "",
+    "Cluster.Password": "",
+    "Cluster.lockuccode": "lockuccode",
+    "Cluster.lockmessage": "Плановое обновление.",
+    "Cluster.lockstart": "",
+    "Cluster.lockstartat": 300
+}

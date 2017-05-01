@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<opm-metadata xmlns="http://oscript.io/schemas/opm-metadata/1.0">
+    <name>deployka</name>
+    <version>0.1.3</version>
+    <engine-version>1.0.16</engine-version>
+    <depends-on name="logos" />
+    <depends-on name="cmdline" />
+    <depends-on name="v8runner" />
+    <executable name="deployka">src/deployka.os</executable>
+</opm-metadata>

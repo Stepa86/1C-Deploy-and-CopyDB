@@ -1,0 +1,7 @@
+{
+    "v8version": "8.3.10.2168",
+    "EXE1CV8": "c:\\program Files (x86)\\1cv8\\%v8version%\\bin\\1cv8.exe",
+    "EXERAC": "C:\\Program Files\\1cv8\\%v8version%\\bin\\rac.exe",
+    // Если RAS уже запущен, то этот параметр следует удалить. Используется для старта RAS принудительно
+    "EXERAS": "C:\\Program Files\\1cv8\\%v8version%\\bin\\ras.exe"
+}

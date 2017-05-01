@@ -1,0 +1,12 @@
+ {
+    "FileBackup": "\\\\PC\\Public\\Backup\\BaseName.bak",
+    "SQL.Base": "BaseName",
+    "Base.Base": "BaseName",
+    "Base.Connect": "/S\"PC/BaseName\"",
+    "Base.User": "Администратор",
+    "Base.Password": "",
+    "UpdateLaunchParameter": "ВыполнитьОбновлениеИЗавершитьРаботу",
+    "Repo.User": "Администратор",
+    "Repo.Password": "",
+    "Repo.Connect": "tcp://ServerRepo/BaseName_dev"
+}

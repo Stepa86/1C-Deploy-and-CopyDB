@@ -1,0 +1,6 @@
+ {
+    "FileBackup": "\\\\PC\\Public\\Backup\\BaseName.bak",
+    "Script_Restore": ".\\Restore_BaseName_PC.sql",
+    "Source_SQL.Base": "BaseName",
+    "ReadFile.Import":  "..\\param\\Import.json"	
+}

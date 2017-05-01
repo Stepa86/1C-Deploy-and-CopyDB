@@ -1,0 +1,6 @@
+{
+    // SQL сервер текущей базы
+    "SQL.Server": "SQL_Server_Name",
+    "SQL.User": "sa",
+    "SQL.Password": ""
+}
