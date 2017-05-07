@@ -31,7 +31,17 @@
 * Проект основан на [oscript.io](oscript.io)
 * /src/deploy.os основана на библиотеке [deployka](https://github.com/oscript-library/deployka). Для нужд проекта пришлось добавить новую функциональность, которая несколько противоречет основной идее библиотеки, и поэтому она не было модифицирована через PR. Включена в этот проект. /src/lib/deployka_m 
  
-* Используются библиотеки cmdline, logos, v8runner, 1commands и progbar. Они должны быть заранее скачены и установлены через [opm](https://github.com/oscript-library/opm)
+* Используются библиотеки [cmdline](https://github.com/oscript-library/cmdline), [logos](https://github.com/oscript-library/logos), [v8runner](https://github.com/oscript-library/v8runner), [1commands](https://github.com/oscript-library/1commands), [readparams](https://github.com/oscript-library/readparams) и [progbar](https://github.com/oscript-library/progbar). Они должны быть заранее скачены и установлены через [opm](https://github.com/oscript-library/opm)
+```cmd
+opm update opm
+opm install cmdline
+opm install logos
+opm install v8runner
+opm install 1commands
+opm install readparams
+opm install progbar
+opm update -all
+```
 * Для чтения параметров использована библиотека [ReadParams](https://github.com/Stepa86/ReadParams)
 
 # Навигация

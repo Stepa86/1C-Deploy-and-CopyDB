@@ -3,7 +3,7 @@
 #Использовать logos
 #Использовать v8runner
 #Использовать progbar
-#Использовать "./Lib/ReadParams"
+#Использовать ReadParams
 #Использовать "./Lib/deployka_m/src"
 
 #Использовать "."
