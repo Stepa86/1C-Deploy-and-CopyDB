@@ -42,7 +42,6 @@ opm install readparams
 opm install progbar
 opm update -all
 ```
-* Для чтения параметров использована библиотека [ReadParams](https://github.com/Stepa86/ReadParams)
 
 # Навигация
 В src весь код, в bin пример
