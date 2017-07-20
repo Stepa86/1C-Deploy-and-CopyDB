@@ -1,0 +1,8 @@
+ {
+    "RebootServer1C": false,
+    "Server1C.ServiceName": "1C:Enterprise 8.3 Server Agent (x86-64)",
+    "Server1C.ServiceRASName": "",
+    "Server1C.CNTX_PATH": "C:\\Program Files\\1cv8\\srvinfo\\reg_1541\\",
+    "Server1C.PFL_PATH": "c:\\Users\\USR1CV8\\AppData\\Local\\1C\\1cv8\\",
+    "Server1C.TEMP_PATH": "c:\\Users\\USR1CV8\\AppData\\Local\\Temp\\"
+}

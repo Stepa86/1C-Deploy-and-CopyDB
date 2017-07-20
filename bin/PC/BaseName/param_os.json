@@ -2,5 +2,6 @@
 	"ReadFile.exe1c": "..\\param\\exe1c.json",
 	"ReadFile.cluster": "..\\param\\cluster.json",
 	"ReadFile.sql": "..\\param\\sql.json",
+	"ReadFile.Server1c": "..\\param\\Server1c.json",
 	"ReadFile.Base": ".\\base.json"
 }
