@@ -26,10 +26,30 @@
 * Есть выполнение бекапов, а недавняя история с гитлабом убедила меня, что лишний бекап никогда не помешает, даже когда есть 5 альтернативных планов
 * Более удобное изменение параметров через файлы. Любой параметр указывается в одном и только в одном месте
 
+# Параметры
+
+Все параметры перечислены в [примере](/bin/PC/param/)
+
+Любой параметр можно так же переопределить через переменную окружения
+
+```cmd
+set slack_StartMessage=:ghost: *import UPP*
+set slack_channel=@Stepa86
+..\..\..\oscript\bin\oscript.exe ..\..\..\src\CopyBase.os import.json
+```
+
+## Отправка в Slack
+
+Для дублирования сообщений в Slack:
+
+1. Создайте [входящий вебхук](https://slack.com/apps/A0F7XDUAZ-incoming-webhooks) для нужной команды
+1. Скопируйте Webhook URL в [файл параметров](/bin/PC/param/slack.json) или установите его через переменную окружения `set slack_WebhookURL=https://hooks.slack.com/services/...`
+1. Переопределите другие параметры при необходимости
+
 # Используемые проекты
 
 * Проект основан на [oscript.io](oscript.io)
-* /src/deploy.os основана на библиотеке [deployka](https://github.com/oscript-library/deployka). Для нужд проекта пришлось добавить новую функциональность, которая несколько противоречет основной идее библиотеки, и поэтому она не было модифицирована через PR. Включена в этот проект. /src/lib/deployka_m 
+* /src/deploy.os основана на библиотеке [deployka](https://github.com/oscript-library/deployka). Для нужд проекта пришлось добавить новую функциональность, которая несколько противоречит основной идее приложения (деплойка использована как библиотека, а не как приложение), и поэтому она не была модифицирована через PR. Включена в этот проект. /src/lib/deployka_m 
  
 * Используются библиотеки [cmdline](https://github.com/oscript-library/cmdline), [logos](https://github.com/oscript-library/logos), [v8runner](https://github.com/oscript-library/v8runner), [1commands](https://github.com/oscript-library/1commands), [readparams](https://github.com/oscript-library/readparams) и [progbar](https://github.com/oscript-library/progbar). Они должны быть заранее скачены и установлены через [opm](https://github.com/oscript-library/opm)
 ```cmd
@@ -38,7 +58,6 @@ opm install cmdline
 opm install logos
 opm install v8runner
 opm install 1commands
-opm install readparams
 opm install progbar
 opm update -all
 ```

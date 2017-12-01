@@ -3,5 +3,6 @@
 	"ReadFile.cluster": "..\\param\\cluster.json",
 	"ReadFile.sql": "..\\param\\sql.json",
 	"ReadFile.Server1c": "..\\param\\Server1c.json",
+	"ReadFile.slack": "..\\param\\slack.json",
 	"ReadFile.Base": ".\\base.json"
 }

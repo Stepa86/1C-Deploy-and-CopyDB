@@ -1,0 +1,7 @@
+{
+    //"slack_WebhookURL": "https://hooks.slack.com/services//",
+    //"slack_channel": "Deploy",
+    //"slack_username": "oScript",
+    //"slack_icon_emoji": ":imp:",
+    //"slack_StartMessage": ":fire_engine: *Deploy start* :fire_engine:"
+}
